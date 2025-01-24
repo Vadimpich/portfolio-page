@@ -1,0 +1,24 @@
+.custom-modal .modal-content {
+    background-color: #1a1a1a !important;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.custom-modal .modal-header {
+    border-bottom: 1px solid #333; /* Линия в заголовке */
+}
+
+.custom-modal img {
+    width: 40px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.custom-modal a {
+    transition: 0.3s ease-in-out;
+}
+
+.custom-modal a:hover {
+    transform: scale(1.1);
+}

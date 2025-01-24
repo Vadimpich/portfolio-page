@@ -1,0 +1,22 @@
+.footer {
+    height: 200px;
+    background: linear-gradient(180deg, #111111 0%, #070707 100%);
+    padding: 0 0 0 0;
+}
+
+.footer .footer-image{
+    background-image: url("../../assets/images/footer.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: auto;
+}

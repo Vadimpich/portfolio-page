@@ -1,0 +1,93 @@
+.bio {
+    margin-top: 0;
+    padding: 260px 0 500px 0;
+    background-image: url('../../assets/images/background.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bio .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 24px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.bio .tagline:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.bio h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.bio p {
+    color: #B8B8B8;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 8px;
+    width: 96%;
+}
+
+.bio button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 48px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+
+.bio button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.bio button:hover svg {
+    margin-left: 25px;
+}
+
+.bio img {
+    border-radius: 50%;
+}
+
+.shape {
+    overflow: hidden;
+}
+
+.shape.circle {
+    border-radius: 50%;
+}
+
+.shape.square {
+    border-radius: 0;
+}
+
+.shape.triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.shape.hexagon {
+    clip-path: polygon(
+            25% 0%,
+            75% 0%,
+            100% 50%,
+            75% 100%,
+            25% 100%,
+            0% 50%
+    );
+}

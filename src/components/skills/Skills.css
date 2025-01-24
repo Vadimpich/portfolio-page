@@ -1,0 +1,99 @@
+.skills {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.skills-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px 0 ;
+    margin-top: -350px;
+}
+
+.skills h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    display: block;
+}
+
+.skills p {
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 64px auto;
+    text-align: center;
+    width: 56%;
+}
+
+.skills-section {
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.skill-card {
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border: 0;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.skill-card .card-img {
+    height: 150px;
+    width: auto;
+}
+
+
+.skill-card .card-body {
+    text-align: center;
+}
+
+.skills .nav.nav-pills {
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+
+@media (max-width: 992px) {
+    .skills .nav.nav-pills {
+        width: 100%;
+    }
+}
+
+.skills .nav.nav-pills .nav-item {
+    width: 33.33333%;
+}
+.skills .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+.skills .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(90.21deg, #75c9a3 0%, #0b3866 100%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.skills .nav.nav-pills .nav-link.active::before {
+    height: 100% !important;
+}

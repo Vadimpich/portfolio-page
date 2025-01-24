@@ -1,0 +1,86 @@
+/* Fonts */
+@font-face {
+    font-family: 'Bezier Sans';
+    src: url('./assets/fonts/BezierSans_Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Bezier Sans';
+    src: url('./assets/fonts/BezierSans_Regular.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Bezier Sans';
+    src: url('./assets/fonts/BezierSans_Light.ttf');
+    font-weight: 400;
+}
+
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+body {
+    font-weight: 500;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #111111 !important;
+    color: #fff !important;
+    font-family: 'Bezier Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-family: 'Bezier Sans', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+@media (min-width:1700px) {
+    main .container {
+        max-width: 100%;
+        padding: 0 150px;
+    }
+}
+
+p.success {
+    color: green;
+}
+
+p.danger {
+    color: red;
+}
